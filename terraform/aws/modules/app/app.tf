@@ -166,11 +166,6 @@ resource "kubernetes_service" "paybr_api_svc" {
       projeto = "fiap-multicloud"
       lab     = "kubernetes"
     }
-
-    annotations = {
-      "service.beta.kubernetes.io/aws-load-balancer-type"            = "external"
-      "service.beta.kubernetes.io/aws-load-balancer-nlb-target-type" = "ip"
-    }
   }
 
   spec {
