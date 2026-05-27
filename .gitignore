@@ -1,0 +1,14 @@
+# Terraform — diretórios e arquivos gerados localmente
+.terraform/
+.terraform.lock.hcl
+
+# State files — nunca versionar estado local
+*.tfstate
+*.tfstate.backup
+
+# Plano de execução
+tfplan
+
+# Variáveis sensíveis — exceto o exemplo
+*.tfvars
+!terraform.tfvars.example
