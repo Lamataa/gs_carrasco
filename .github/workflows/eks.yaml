@@ -3,7 +3,7 @@ name: EKS — Lab 4 FIAP
 
 on:
   push:
-    branches: [main]
+    branches: [test]
 
 jobs:
   eks:
