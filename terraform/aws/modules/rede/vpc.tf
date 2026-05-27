@@ -29,12 +29,12 @@ resource "aws_subnet" "publica_1a" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name                                          = "fiap-subnet-pub-1a-rm562093"
-    aluno                                         = "rm562093"
-    projeto                                       = "fiap-multicloud"
-    lab                                           = "kubernetes"
-    "kubernetes.io/role/elb"                      = "1"
-    "kubernetes.io/cluster/${var.nome_cluster}"   = "shared"
+    Name                                        = "fiap-subnet-pub-1a-rm562093"
+    aluno                                       = "rm562093"
+    projeto                                     = "fiap-multicloud"
+    lab                                         = "kubernetes"
+    "kubernetes.io/role/elb"                    = "1"
+    "kubernetes.io/cluster/${var.nome_cluster}" = "shared"
   }
 }
 
@@ -45,12 +45,12 @@ resource "aws_subnet" "publica_1b" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name                                          = "fiap-subnet-pub-1b-rm562093"
-    aluno                                         = "rm562093"
-    projeto                                       = "fiap-multicloud"
-    lab                                           = "kubernetes"
-    "kubernetes.io/role/elb"                      = "1"
-    "kubernetes.io/cluster/${var.nome_cluster}"   = "shared"
+    Name                                        = "fiap-subnet-pub-1b-rm562093"
+    aluno                                       = "rm562093"
+    projeto                                     = "fiap-multicloud"
+    lab                                         = "kubernetes"
+    "kubernetes.io/role/elb"                    = "1"
+    "kubernetes.io/cluster/${var.nome_cluster}" = "shared"
   }
 }
 
